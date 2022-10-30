@@ -18,11 +18,11 @@ function Supporters() {
               <h2>
               Special thanks to these businesses who have provided resources
                 <br />
-                for Bellevue's tree canopy conservation non-profit organizations
+                for Bellevue's tree canopy conservation organizations
               </h2>
               <p>
                 <img></img>
-                We believe in transparency. The business and contributions made will be listed below.
+                We believe in transparency. The business and contributions made will be listed below.<br></br>5% of donations are redirected towards funding TreePals.
               </p>
             </header>
           </section>

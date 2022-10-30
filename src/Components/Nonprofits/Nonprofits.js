@@ -7,7 +7,7 @@ function Nonprofits() {
       <section id="banner">
         {/* <h2>TreePals</h2> */}
         <h2>Non-profits</h2>
-        <p>Organizations that advocate for the environmental conservation of Bellevue</p>
+        <p>Organizations that advocate for the tree canopy conservation of Bellevue</p>
       </section>
 
 
@@ -16,12 +16,12 @@ function Nonprofits() {
         <section className="box special">
           <header className="major">
             <h2>
-            Contributions made will be used to fund the missions
+            Contributions made are used to fund the missions
               <br />
               of the perspective organization
             </h2>
             <p>
-              Click "Learn More" to explore more about these 501(c)(3) and 501(c)(4) organizations
+              Click "Learn More" to explore more about these 501(c)(3) and 501(c)(4) organizations.<br></br>5% of donations are redirected towards funding TreePals.
             </p>
           </header>
         </section>
