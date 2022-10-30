@@ -2882,11 +2882,11 @@
 
 /* Header */
 
-	#page-wrapper {
+	#root {
 		padding-top: 3em;
 	}
 
-	body.landing #page-wrapper {
+	body.landing #root {
 		padding-top: 0;
 	}
 
@@ -3163,7 +3163,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3483,7 +3483,7 @@
 
 		/* Header */
 
-			#page-wrapper {
+			#root {
 				padding-top: 0;
 			}
 
@@ -3495,7 +3495,7 @@
 
 		/* Nav */
 
-			#page-wrapper {
+			#root {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3634,7 +3634,7 @@
 						width: 5em;
 					}
 
-			body.navPanel-visible #page-wrapper {
+			body.navPanel-visible #root {
 				-moz-transform: translateX(275px);
 				-webkit-transform: translateX(275px);
 				-ms-transform: translateX(275px);
