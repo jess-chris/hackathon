@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
+import treepals from '../../assets/images/treepals.png';
 
 
 function NavBar() {
 
   return (
     <header id="header" className="alt">
-      <h1><NavLink to="/">TreePals</NavLink></h1>
+      <NavLink to="/"><img src={treepals}></img></NavLink>
       <nav id="nav">
         <ul>
           <li><NavLink to="/">Home</NavLink></li>

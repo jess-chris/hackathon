@@ -6,14 +6,15 @@ function HomePage() {
     <>
 
       <section id="banner">
-        <h2>TreePals</h2>
-        <p>some description?</p>
+        {/* <h2>TreePals</h2> */}
+        <h2>Branching together.</h2>
+        <p>Getting businesses involved in the tree canopy conservation of Bellevue</p>
         <ul className="actions special">
           <li>
-            <NavLink to="#" className="button primary">Companies</NavLink>
+            <NavLink to="#" className="button">Supporters</NavLink>
           </li>
           <li>
-            <NavLink to="#" className="button">Volunteers</NavLink>
+            <NavLink to="#" className="button">Non-profits</NavLink>
           </li>
         </ul>
       </section>
@@ -24,9 +25,9 @@ function HomePage() {
         <section className="box special">
           <header className="major">
             <h2>
-              Introducing the ultimate mobile app
+            An easy way for businesses to connect with non-profit
               <br />
-              for doing stuff with your phone
+              organizations specialized in tree canopy conservation
             </h2>
             <p>
               Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
