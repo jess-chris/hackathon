@@ -7,7 +7,7 @@ function HomePage() {
 
       <section id="banner">
         {/* <h2>TreePals</h2> */}
-        <h2>Branching together.</h2>
+        <h2 className='font-fix'>Branching together.</h2>
         <p>Getting businesses involved in the tree canopy conservation of Bellevue</p>
         <ul className="actions special">
           <li>

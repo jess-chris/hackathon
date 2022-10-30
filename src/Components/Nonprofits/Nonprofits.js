@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import '../../assets/css/custom.css'
 
 function Nonprofits() {
  return (
@@ -6,7 +7,7 @@ function Nonprofits() {
 
       <section id="banner">
         {/* <h2>TreePals</h2> */}
-        <h2>Non-profits</h2>
+        <h2 className='font-fix'>Non-profits</h2>
         <p>Organizations that advocate for the tree canopy conservation of Bellevue</p>
       </section>
 
@@ -37,7 +38,14 @@ function Nonprofits() {
                 <li>
                   <a href="https://trees4livability.org/" target="_blank" className="button alt">Learn More</a>
                 </li>
+                <li>
+                </li>
               </ul>
+                  Donors:<br />
+                <div className='sponsor-donors'>
+                  <img src='images/amazon_logo.png'></img>
+                  <img src='images/cropped-logo.png'></img>
+                </div>
             </section>
 
           </div>
@@ -52,6 +60,11 @@ function Nonprofits() {
                   <a href="https://300trees.org/" target="_blank" className="button alt">Learn More</a>
                 </li>
               </ul>
+              Donors:<br />
+                <div className='sponsor-donors'>
+                  <img src='images/amazon_logo.png'></img>
+                  <img src='images/bellevue_nursery.jpg'></img>
+                </div>
             </section>
 
           </div>
@@ -69,6 +82,10 @@ function Nonprofits() {
                   <a href="https://www.facebook.com/bellevuegreenandclean/" target="_blank" className="button alt">Learn More</a>
                 </li>
               </ul>
+              Donors:<br />
+                <div className='sponsor-donors'>
+                  <img src='images/amazon_logo.png'></img>
+                </div>
             </section>
 
           </div>
@@ -83,6 +100,10 @@ function Nonprofits() {
                   <a href="https://peopleforclimateaction.org/" target="_blank" className="button alt">Learn More</a>
                 </li>
               </ul>
+              Donors:<br />
+                <div className='sponsor-donors'>
+                  <img src='images/amazon_logo.png'></img>
+                </div>
             </section>
 
           </div>
@@ -100,6 +121,10 @@ function Nonprofits() {
                   <a href="https://www.eastsideaudubon.org/" target="_blank" className="button alt">Learn More</a>
                 </li>
               </ul>
+              Donors:<br />
+                <div className='sponsor-donors'>
+                  <img src='images/amazon_logo.png'></img>
+                </div>
             </section>
 
           </div>
@@ -114,6 +139,10 @@ function Nonprofits() {
                   <a href="https://trees4livability.org/" target="_blank" className="button alt">Learn More</a>
                 </li>
               </ul>
+              Donors:<br />
+                <div className='sponsor-donors'>
+                  <img src='images/amazon_logo.png'></img>
+                </div>
             </section>
 
           </div>
@@ -131,6 +160,10 @@ function Nonprofits() {
                   <a href="https://cascadiaclimateaction.org/" target="_blank" className="button alt">Learn More</a>
                 </li>
               </ul>
+              Donors:<br />
+                <div className='sponsor-donors'>
+                  <img src='images/amazon_logo.png'></img>
+                </div>
             </section>
 
           </div>
@@ -145,6 +178,10 @@ function Nonprofits() {
                   <a href="https://nextdoor.com/g/tw7gtbjph/" target="_blank" className="button alt">Learn More</a>
                 </li>
               </ul>
+              Donors:<br />
+                <div className='sponsor-donors'>
+                  <img src='images/amazon_logo.png'></img>
+                </div>
             </section>
 
           </div>

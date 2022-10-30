@@ -1,0 +1,53 @@
+.donator {
+	display: flex;
+	flex-direction: row;
+  justify-content: space-around;
+
+  /* display: inline-block; */
+  /* border-top: solid 2px #e5e5e5; */
+  color: #777;
+  margin: 1.5em 0 0 0;
+  padding: 2em 0 0 0;
+  font-style: normal;
+}
+
+.donor-info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.no-shadow {
+  box-shadow: none;
+  /* box-shadow: 0 2px 0 0 #e5e5e5; */
+}
+
+.border-top {
+  border-top: solid 2px #e5e5e5;
+}
+
+.resize {
+  width: 160px;
+  height: 160px;
+  padding-top: 30px;
+}
+
+
+.sponsor-donors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.sponsor-donors img {
+  height: 50px;
+  width: 50px;
+}
+
+.font-fix {
+  font-size: 60px;
+  font-weight: bold;
+}

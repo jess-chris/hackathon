@@ -14,7 +14,7 @@ function Footer() {
         <li><NavLink to="#" className="icon brands fa-google-plus"><span className="label">Google+</span></NavLink></li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Untitled. All rights reserved.</li><li>Design: <NavLink to="http://html5up.net">HTML5 UP</NavLink></li>
+        <li>&copy; TreePals. All rights reserved.</li>
       </ul>
     </footer>
   )
