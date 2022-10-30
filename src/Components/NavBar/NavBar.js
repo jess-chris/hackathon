@@ -11,9 +11,9 @@ function NavBar() {
         <ul>
           <li><NavLink to="/">Home</NavLink></li>
           <li>
-            <NavLink to="#" className="icon solid fa-angle-down">Layouts</NavLink>
+            <NavLink to="#" className="icon solid fa-angle-down">TreePals</NavLink>
             <ul>
-              <li><NavLink to="generic.html">Generic</NavLink></li>
+              <li><NavLink to="generic.html">About</NavLink></li>
               <li><NavLink to="contact.html">Contact</NavLink></li>
               <li><NavLink to="elements.html">Elements</NavLink></li>
               <li>
