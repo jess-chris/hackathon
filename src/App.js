@@ -5,6 +5,8 @@ import useScipt from './hooks/useScript';
 import NavBar from './Components/NavBar/NavBar';
 import HomePage from './Components/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
+import Nonprofits from './Components/Nonprofits/Nonprofits';
+import Supporters from './Components/Supporters/Supporters'
 
 import './assets/css/index.css';
 
@@ -19,7 +21,7 @@ function App() {
   useScipt("assets/js/breakpoints.min.js");
   useScipt("assets/js/util.js");
   useScipt("assets/js/main.js");
-  
+
   useEffect(() => {
     (async() => {
       await setLoaded(true);
@@ -33,17 +35,19 @@ function App() {
 
   return (
     <>
-    
+
       <NavBar />
 
       <Routes>
 
 
         <Route path='/' element={<HomePage />} />
+        <Route path='/nonprofits' element={<Nonprofits />} />
+        <Route path='/supporters' element={<Supporters />} />
 
 
       </Routes>
-    
+
       <Footer />
 
     </>

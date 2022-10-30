@@ -6,14 +6,15 @@ function HomePage() {
     <>
 
       <section id="banner">
-        <h2>TreePals</h2>
-        <p>some description?</p>
+        {/* <h2>TreePals</h2> */}
+        <h2>Branching together.</h2>
+        <p>Getting businesses involved in the tree canopy conservation of Bellevue</p>
         <ul className="actions special">
           <li>
-            <NavLink to="#" className="button primary">Companies</NavLink>
+            <NavLink to="/supporters" className="button">Supporters</NavLink>
           </li>
           <li>
-            <NavLink to="#" className="button">Volunteers</NavLink>
+            <NavLink to="/nonprofits" className="button">Non-profits</NavLink>
           </li>
         </ul>
       </section>
@@ -24,48 +25,48 @@ function HomePage() {
         <section className="box special">
           <header className="major">
             <h2>
-              Introducing the ultimate mobile app
+            An easy way for businesses to connect with non-profit
               <br />
-              for doing stuff with your phone
+              organizations specialized in tree canopy conservation
             </h2>
             <p>
-              Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
-              adipiscing nunc adipiscing. Condimentum turpis massa.
+              Explore the various non-profit organizations in Bellevue that emphasize the importance
+              of tree canopy conservation and protection.
             </p>
           </header>
-          <span className="image featured">
+          {/* <span className="image featured">
             <img src="images/pic01.jpg" alt="" />
-          </span>
+          </span> */}
         </section>
 
         <section className="box special features">
           <div className="features-row">
             <section>
-              <span className="icon solid major fa-bolt accent2"></span>
-              <h3>Magna etiam</h3>
-              <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+              <span className="icon solid major fa-tree accent2"></span>
+              <h3>Tree conservation</h3>
+              <p>Trees improve air quality, reduce heating and cooling costs, mitigate the effect of wind and stormwater runoff, and much more.</p>
             </section>
             <section>
-              <span className="icon solid major fa-chart-area accent3"></span>
-              <h3>Ipsum dolor</h3>
-              <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+              <span className="icon solid major fa-seedling accent3"></span>
+              <h3>Planting new trees</h3>
+              <p>The city of Bellevue has a goal of achieving a tree canopy that covers 40% of the city's land area by 2050.</p>
             </section>
           </div>
           <div className="features-row">
             <section>
-              <span className="icon solid major fa-cloud accent4"></span>
-              <h3>Sed feugiat</h3>
-              <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+              <span className="icon solid major fa-landmark accent4"></span>
+              <h3>Greener policies</h3>
+              <p>Many residents of Bellevue are shocked when they learn about Bellevue's lax regulations for cutting down significant trees.</p>
             </section>
             <section>
-              <span className="icon solid major fa-lock accent5"></span>
-              <h3>Enim phasellus</h3>
-              <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+              <span className="icon solid major fa-bolt accent5"></span>
+              <h3>Spreading awareness</h3>
+              <p>It takes trees 45 - 150 years to grow to a significant size. We must take action to protect our trees!</p>
             </section>
           </div>
         </section>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="col-6 col-12-narrower">
 
             <section className="box special">
@@ -94,7 +95,7 @@ function HomePage() {
             </section>
 
           </div>
-        </div>
+        </div> */}
 
       </section>
 
