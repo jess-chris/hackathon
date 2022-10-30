@@ -34,9 +34,9 @@ function HomePage() {
               of tree canopy conservation and protection.
             </p>
           </header>
-          <span className="image featured">
+          {/* <span className="image featured">
             <img src="images/pic01.jpg" alt="" />
-          </span>
+          </span> */}
         </section>
 
         <section className="box special features">

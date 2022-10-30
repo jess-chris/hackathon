@@ -15,14 +15,14 @@ function NavBar() {
             <ul>
               <li><NavLink to="generic.html">About</NavLink></li>
               <li><NavLink to="contact.html">Contact</NavLink></li>
-              <li><NavLink to="elements.html">Elements</NavLink></li>
+              <li><NavLink to="elements.html">Funding</NavLink></li>
               <li>
-                <NavLink to="#">Submenu</NavLink>
+                <NavLink to="#">Creators</NavLink>
                 <ul>
-                  <li><NavLink to="#">Option One</NavLink></li>
-                  <li><NavLink to="#">Option Two</NavLink></li>
-                  <li><NavLink to="#">Option Three</NavLink></li>
-                  <li><NavLink to="#">Option Four</NavLink></li>
+                  <li><NavLink to="#">Braxton Kappes</NavLink></li>
+                  <li><NavLink to="#">Jesse Christensen</NavLink></li>
+                  <li><NavLink to="#">Johnathan Yih</NavLink></li>
+                  <li><NavLink to="#">Sharon Fang</NavLink></li>
                 </ul>
               </li>
             </ul>
