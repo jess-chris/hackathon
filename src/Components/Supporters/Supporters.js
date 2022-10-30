@@ -24,34 +24,34 @@ function Supporters() {
                 <img></img>
                 We believe in transparency. The business and contributions made will be listed below.
               </p>
-              <p>
-                <img></img>
-                Business Logo and the contributions made to which non-profits here.
-              </p>
-              <p>
-                <img></img>
-                Business Logo and the contributions made to which non-profits here.
-              </p>
-              <p>
-                <img></img>
-                Business Logo and the contributions made to which non-profits here.
-              </p>
-              <p>
-                <img></img>
-                Business Logo and the contributions made to which non-profits here.
-              </p>
-              <p>
-                <img></img>
-                Business Logo and the contributions made to which non-profits here.
-              </p>
-              <p>
-                <img></img>
-                Business Logo and the contributions made to which non-profits here.
-              </p>
             </header>
-            <span className="image featured">
-              <img src="images/pic01.jpg" alt="" />
-            </span>
+          </section>
+
+          <section className='box special'>
+            <p>
+              <img></img>
+              Business Logo and the contributions made to which non-profits here.
+            </p>
+            <p>
+              <img></img>
+              Business Logo and the contributions made to which non-profits here.
+            </p>
+            <p>
+              <img></img>
+              Business Logo and the contributions made to which non-profits here.
+            </p>
+            <p>
+              <img></img>
+              Business Logo and the contributions made to which non-profits here.
+            </p>
+            <p>
+              <img></img>
+              Business Logo and the contributions made to which non-profits here.
+            </p>
+            <p>
+              <img></img>
+              Business Logo and the contributions made to which non-profits here.
+            </p>
           </section>
 
         </section>

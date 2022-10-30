@@ -44,7 +44,7 @@ function HomePage() {
             <section>
               <span className="icon solid major fa-tree accent2"></span>
               <h3>Tree conservation</h3>
-              <p>Many residents of Bellevue are shocked when they learn about Bellevue's lax regulations for cutting down significant trees.</p>
+              <p>Trees improve air quality, reduce heating and cooling costs, mitigate the effect of wind and stormwater runoff, and much more.</p>
             </section>
             <section>
               <span className="icon solid major fa-seedling accent3"></span>
@@ -56,12 +56,12 @@ function HomePage() {
             <section>
               <span className="icon solid major fa-landmark accent4"></span>
               <h3>Greener policies</h3>
-              <p>The push for greener policies continues as increased development pushes for increased destruction of tree canopy in Bellevue.</p>
+              <p>Many residents of Bellevue are shocked when they learn about Bellevue's lax regulations for cutting down significant trees.</p>
             </section>
             <section>
               <span className="icon solid major fa-bolt accent5"></span>
               <h3>Spreading awareness</h3>
-              <p>Trees help provide shade, cleaner air, and more temperate conditions in surrounding areas.</p>
+              <p>It takes trees 45 - 150 years to grow to a significant size. We must take action to protect our trees!</p>
             </section>
           </div>
         </section>
